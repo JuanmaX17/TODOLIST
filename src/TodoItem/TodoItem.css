@@ -1,0 +1,116 @@
+.ul__item{
+    list-style: none;
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-between;
+    justify-self: center;
+    text-align: center;
+    width: 50%;
+    max-width: 50%;
+    padding: 0 15px;
+    background-color: #00bce6;
+    
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 7px #F55C10;
+    cursor: pointer;
+    transition: all 0.1s;
+
+ 
+}
+
+@media (max-width: 750px){
+    .ul__item{
+        width: 80%;
+        max-width: 80%;
+    }
+}
+
+
+.ul__item:hover{
+    filter: brightness(0.9)
+    
+
+}
+
+
+.ul__text{
+    padding: 10px;
+    text-align: left;
+  
+}
+
+.ul__title,.ul__text{
+   display: grid;
+   place-items: center;
+   font-size: 0.8em;
+}
+
+.ul__title{
+    font-weight: bold;
+    
+}
+.ul__estado{
+    display: flex;
+    gap: 10px;
+}
+.fa-check{
+    color: rgb(1, 222, 56);
+    font-size: 25px;
+}
+
+.fa-check:hover{
+    color: rgb(0, 220, 77);
+}
+.fa-gauge{
+    color: rgb(222, 119, 1);
+    font-size: 25px;
+    
+}
+.fa-gauge:hover{
+    color: rgb(255, 77, 0);
+    
+}
+
+@media (max-width: 600px){
+    .fa-gauge{
+        font-size: 18px;
+    }
+    .fa-chec{
+        font-size: 18px;
+    }
+    .ul__icon_cambios{
+        font-size: 15px !important;
+    }
+}
+
+
+.ul__completed{
+    text-decoration: line-through;
+    color: rgb(83, 103, 127);
+}
+
+.ul__trash{
+    display: grid;
+    place-items: center;
+}
+.ul__trash:hover{
+    color: red;
+}
+
+.ul__edit:hover{
+    color: #F55C10;
+}
+.ul__edit{
+    display: grid;
+    place-items: center;
+}
+
+.ul__icon_cambios{
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    gap: 10px;
+    font-size: 18px;
+  }
+

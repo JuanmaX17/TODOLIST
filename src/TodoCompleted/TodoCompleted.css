@@ -1,0 +1,18 @@
+.todo__title{
+    text-align: center;
+  
+
+    margin: 40px;
+   
+}
+.todo__text__title{
+    margin: 0;
+    font-size: 2.6rem;
+    filter: drop-shadow(1px 1px 2px  #FF8229);
+}
+
+@media (max-width: 500px){
+    .todo__text__title{
+        font-size: 2rem;
+    }
+}

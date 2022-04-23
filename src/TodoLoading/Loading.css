@@ -1,0 +1,60 @@
+.cargando{
+    list-style: none;
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-between;
+    justify-self: center;
+    text-align: center;
+    width: 70vw;
+    padding: 0 15px;
+    background-color: #717171;
+    
+    border-radius: 15px;
+    box-sizing: border-box;
+    height: 55px;
+  
+    animation: loading 0.8s infinite;
+    animation-timing-function: ease;
+  
+  }
+  
+  
+  @keyframes loading {
+  
+    0% { 
+      background:linear-gradient(to left, #d63909e2,#d63909e2,#d63909e2,#d63909e2,#d63909e2,#d63909e2,#d63909e2,#d63909e2,#d63909e2,rgb(119, 165, 218))
+    }
+  
+    10%{
+      background:linear-gradient(to left, #d63909e2,#d63909e2,#d63909e2,#d63909e2,#d63909e2,#d63909e2,#d63909e2,#d63909e2,rgb(119, 165, 218),rgb(119, 165, 218))
+    }
+    20%{
+       background:linear-gradient(to left, #d63909e2,#d63909e2,#d63909e2,#d63909e2,#d63909e2,#d63909e2,#d63909e2,rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218))
+    }
+    30%{
+       background:linear-gradient(to left, #d63909e2,#d63909e2,#d63909e2,#d63909e2,#d63909e2,#d63909e2,rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218))
+    }
+    40%{
+       background:linear-gradient(to left, #d63909e2,#d63909e2,#d63909e2,#d63909e2,#d63909e2,rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218))
+    }
+    50%{
+       background:linear-gradient(to left, #d63909e2,#d63909e2,#d63909e2,#d63909e2,rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218))
+    }
+    60%{
+       background:linear-gradient(to left, #d63909e2,#d63909e2,#d63909e2,rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218))
+    }
+    70%{
+      background:linear-gradient(to left, #d63909e2,#d63909e2,rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218))
+   }
+    80%{
+      background:linear-gradient(to left, #d63909e2,rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218),rgb(119, 165, 218))
+    }
+    90%{
+      background:linear-gradient(to left, white,white,white,white,white,white,white,white,white,white)
+    }
+    100%{
+      background:linear-gradient(to left, white,white,white,white,white,white,white,white,white,white)
+    }
+    
+    
+  }

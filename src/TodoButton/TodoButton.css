@@ -1,0 +1,49 @@
+.container{
+
+    text-align: center;
+    position: fixed;
+    bottom: 95px;
+    right: 0;
+    left: 0;
+       
+    z-index: 100;
+}
+
+.todo__button{
+   
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    border: 1px solid #00D2E6;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 25px;
+   
+    z-index: 100;
+
+}
+
+.todo__button:hover{
+    background-color: #00d3e6;
+    color: wheat;
+    transition: all 0.5s;
+    animation-timing-function: ease-in-out;
+    transform: rotate(360deg);
+    
+}
+
+@media (max-width: 600px){
+
+    .container{
+        bottom: 0px;
+        padding: 10px;
+        background-color: #e65100;
+        border-top: 2px solid #00D2E6;
+    }
+    .todo__button{
+        position: relative;
+        top: -40px;
+        font-size: 35px;
+    
+    }
+}

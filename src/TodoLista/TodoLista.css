@@ -1,0 +1,38 @@
+.ul{
+    display: grid;
+    grid-template-rows: 1fr;
+    place-items: center;  
+    padding: 0;
+    gap: 15px;
+    max-height: 46vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 30px 1px;
+    box-shadow: 0 0 4px black;
+
+    color: black;
+    font-weight: 500;
+
+
+    
+}
+
+.ul::-webkit-scrollbar{
+    visibility: visible;
+    width: 6px;
+
+}
+
+.ul::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 85, 0);
+    height: 100px;
+}
+
+@media (max-width: 600px){
+    .ul{
+        box-shadow: none;
+        background-color: transparent;
+        max-height: 60vh;
+        overflow-y: auto;
+    }
+}

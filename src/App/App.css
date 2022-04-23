@@ -28,11 +28,27 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn__create{
+
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 3px solid #61dafb;
+  font-size: 1.3rem;
+  color: wheat !important;
+  font-weight: 300;
 }
+
+.btn__create:hover{
+
+  border-bottom: 3px solid #e9810b;
+  
+ 
+}
+
+body{
+  overflow: hidden !important;
+  
+}
+
+
+

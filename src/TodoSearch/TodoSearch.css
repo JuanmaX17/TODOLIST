@@ -1,0 +1,31 @@
+.search{
+   width: 100%;
+   text-align: center;
+  
+}
+
+
+
+.search__input{
+    text-align: center;
+    height: 40px;
+    width: 50%;
+    filter: drop-shadow(1px 1px 3px #117CF5);
+    transition: all 0.4s;
+    font-size: 1rem;
+    background-color: #ffdab4;
+    border: 2px solid #ffbf00;
+    border-radius: 40px;
+}
+
+.search__input:focus{
+    border: 2px solid #000000;
+}
+
+@media (max-width: 700px){
+    
+    .search__input{
+       width: 80%;
+    }
+}
+
