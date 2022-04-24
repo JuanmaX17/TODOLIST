@@ -15,7 +15,9 @@
     .todo__text__title{
         font-size: 1.5rem;
     }
-    .padding{
-        padding-top: 100px;
+
+    .todo__title{
+        margin: 2px 40px 15px 40px;
     }
+   
 }

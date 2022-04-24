@@ -19,8 +19,8 @@ body{
 
 #root{
     align-self: center;
-    height: 100vh;
-    padding-top: 60px;
+    height: 70vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,48 +39,50 @@ body{
     bottom: 0;
  
  }
+ .cancha{
+    position: fixed;
+    margin: auto;
+    right: 0;
+    left: 0;    
+    top: 0;    
+    text-align: center;
+   
+}
 
+.animation{
+   
+    text-align: center;
+    font-size: 40px;
+    color: rgba(205, 93, 23, 0.282);
+    animation: desplazarse 4s infinite;
+    animation-timing-function: ease-out;
+    box-shadow: 1px 2px 8px white;
+    border-radius: 50%;
+    
+
+ 
+   
+}
+
+
+@keyframes desplazarse{
+   
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+
+
+}
 @media (max-width: 600px){
     #wave-down{
         display: none;
     }
 
 
-    .cancha{
-        position: fixed;
-        margin: auto;
-        right: 0;
-        left: 0;        
-        text-align: center;
-    }
   
-    .animation{
-       
-        text-align: center;
-        font-size: 40px;
-        color: rgba(205, 93, 23, 0.282);
-        animation: desplazarse 4s infinite;
-        animation-timing-function: ease-out;
-        box-shadow: 1px 2px 8px white;
-        border-radius: 50%;
-        
-
-     
-       
-    }
-    
-  
-    @keyframes desplazarse{
-       
-        0%{
-            transform: rotate(360deg);
-        }
-        100%{
-            transform: rotate(-360deg);
-        }
-    
-    
-    }
 
     
     
