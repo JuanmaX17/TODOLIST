@@ -51,12 +51,15 @@
 @media (max-width: 900px){
     .form__todo{
         width: 85vw;
+       gap: 4px;
     }
 }
 
 .form__button,.form__submit{
     border: none;
     border-radius: 8px;
+    color: white;
+   
     
 
 }

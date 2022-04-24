@@ -5,21 +5,22 @@
     bottom: 95px;
     right: 0;
     left: 0;
-       
+    height: 36px !important;
     z-index: 100;
 }
 
 .todo__button{
    
-    border-radius: 50%;
-    width: 65px;
-    height: 65px;
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
     border: 1px solid #00D2E6;
     cursor: pointer;
     transition: all 0.4s;
-    font-size: 25px;
+    font-size: 25px !important;
    
     z-index: 100;
+    text-align: center;
 
 }
 
@@ -36,14 +37,15 @@
 
     .container{
         bottom: 0px;
-        padding: 10px;
+      
         background-color: #e65100;
         border-top: 2px solid #00D2E6;
+        height: 50px;
     }
     .todo__button{
         position: relative;
-        top: -40px;
-        font-size: 35px;
+        top: -30px;
+    
     
     }
 }

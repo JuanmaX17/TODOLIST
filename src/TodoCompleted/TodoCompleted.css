@@ -1,8 +1,8 @@
 .todo__title{
     text-align: center;
-  
+    align-self: center;
 
-    margin: 40px;
+    margin: 2px 40px 40px 40px;
    
 }
 .todo__text__title{
@@ -13,6 +13,6 @@
 
 @media (max-width: 500px){
     .todo__text__title{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }

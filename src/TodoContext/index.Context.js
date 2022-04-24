@@ -153,7 +153,7 @@ const onCloseModal = ()=>{
 }
 
 const edit = (text_edit,title_edit)=>{
-
+ 
   setOpenModalEdit(!openModalEdit);
   setTextEdit([text_edit,title_edit])
 }

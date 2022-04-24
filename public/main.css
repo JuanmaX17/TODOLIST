@@ -6,6 +6,7 @@ body{
     filter: brightness(1.1);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     
     display: grid;
     height: 100vh;
@@ -18,6 +19,13 @@ body{
 
 #root{
     align-self: center;
+    height: 100vh;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
 }
 
 
@@ -40,18 +48,22 @@ body{
 
     .cancha{
         position: fixed;
-        height: 30px;
-        width: 100vw;
-        background-color: #e65100;
-    }
-    .animation{
-        position: fixed;
-        margin-top: 20px;
+        margin: auto;
+        right: 0;
+        left: 0;        
         text-align: center;
-        font-size: 50px;
+    }
+  
+    .animation{
+       
+        text-align: center;
+        font-size: 40px;
         color: rgba(205, 93, 23, 0.282);
-        animation: desplazarse 8s infinite;
+        animation: desplazarse 4s infinite;
         animation-timing-function: ease-out;
+        box-shadow: 1px 2px 8px white;
+        border-radius: 50%;
+        
 
      
        
@@ -59,40 +71,13 @@ body{
     
   
     @keyframes desplazarse{
-        0%{
-          
-            left: 0;
-            color: cornflowerblue;
-          
-        }
-        20%{
-            left: 100vw;
-            transform: rotate(360deg)
-        }
-      
-        40%{
-            left: 90vw;
-            transform: rotate(0)
-        }
-
-        50%{
-            left: -20vw;
-            transform: rotate(360deg)
-        }
-
-        60%{
-            left: 90vw;
-            transform: rotate(0)
-        }
-
-        70%{
-            transform: rotate(360deg);
-            left: -20vw;
-        }
-
-  
-        
        
+        0%{
+            transform: rotate(360deg);
+        }
+        100%{
+            transform: rotate(-360deg);
+        }
     
     
     }
@@ -101,8 +86,11 @@ body{
     
   
 }
+
+
  
 
-
-
+#modal{
+   position: fixed;
+}
 
