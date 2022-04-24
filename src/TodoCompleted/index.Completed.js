@@ -5,8 +5,8 @@ import {TodoContext} from "../TodoContext/index.Context"
 
 export function TodoCompleted(){
     
-    const {completedTodo,totalTodo} = React.useContext(TodoContext);
-    let clasePadding =  (totalTodo > 4) && "padding"
+    const {completedTodo,totalTodo,searchedTodo} = React.useContext(TodoContext);
+    let clasePadding =  (searchedTodo > 4) && "padding"
     console.log("ass" + clasePadding)
     return (
        <div className={`todo__title ${clasePadding}`}>
